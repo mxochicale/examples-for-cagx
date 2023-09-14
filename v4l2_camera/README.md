@@ -8,9 +8,9 @@ https://github.com/nvidia-holoscan/holoscan-sdk/tree/main/examples/v4l2_camera
 ## Use with V4L2 Loopback Devices
 
 ```
-sudo apt-get install v4l2loopback-dkms ffmpeg
-sudo modprobe v4l2loopback video_nr=3 max_buffers=4
-ffmpeg -stream_loop -1 -re -i /path/to/video.mp4 -pix_fmt yuyv422 -f v4l2 /dev/video3
+sudo apt-get install v4l2loopback-dkms ffmpeg #install v4l2loopback and ffmpeg
+sudo modprobe v4l2loopback video_nr=3 max_buffers=4 #Load the v4l2loopback kernel module on /dev/video3:
+ffmpeg -stream_loop -1 -re -i /home/miguel/examples-for-cagx/data/p01t02r01-1g.mp4 -pix_fmt yuyv422 -f v4l2 /dev/video3 #play a video to /dev/video3 using ffmpeg
 ```
 https://github.com/nvidia-holoscan/holoscan-sdk/tree/main/examples/v4l2_camera#example-streaming-an-mp4-as-a-loopback-device 
 
