@@ -14,6 +14,9 @@ ffmpeg -stream_loop -1 -re -i /home/miguel/examples-for-cagx/data/p01t02r01-1g.m
 ```
 https://github.com/nvidia-holoscan/holoscan-sdk/tree/main/examples/v4l2_camera#example-streaming-an-mp4-as-a-loopback-device 
 
+
+![fig](docs/figures/v4l2loopback_on_dev_video3.png)
+
 ## Checking video formats in cagx
 
 v4l2-ctl -d /dev/video0 --list-formats-ext
