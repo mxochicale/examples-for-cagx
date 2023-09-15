@@ -1,0 +1,10 @@
+## pycharm project path
+**.idea
+
+## temporal md files or others
+**/*.md.swp
+**/*.swp
+
+## others
+*.ipynb_checkpoints
+**/__pycache__
