@@ -10,3 +10,10 @@
 Model was create with [> colon_seg_net_test.ipynb Open In Colab ](https://colab.research.google.com/drive/1zNmljc-ppn_0RZvppI3Vz7rX3uA8msPd)
 
 
+Download model
+```
+wget https://raw.githubusercontent.com/mxochicale/examples-for-cagx/main/data/ColonSegNet-07112023-2359.onnx
+```
+
+
+
